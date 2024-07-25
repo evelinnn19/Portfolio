@@ -5,7 +5,7 @@
 
 
 body {
-	background: #fdfce9;
+	background: #efeecf;
 }
 
 
@@ -18,10 +18,26 @@ body {
 
 .navbar-brand {
     font-size: 22px;
-	text-transform: uppercase; /*Mayusculas el texto*/
+	text-transform: uppercase;
 	font-weight: 800;
 }
 
 .navbar {
+    max-width: 100%; 
+    margin: 0 auto; 
     background-color: #ffffff;
+    position: relative;
 }
+
+
+.container {
+    max-width: 100%;
+}
+
+
+.navbar-toggler {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
