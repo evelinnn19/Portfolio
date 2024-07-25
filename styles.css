@@ -5,7 +5,7 @@
 
 
 body {
-	background: #dce3c2;
+	background: #ffffff;
 }
 
 
@@ -22,5 +22,6 @@ body {
 	font-weight: 800;
 }
 
-
-
+.navbar {
+    background-color: rgb(255, 249, 215);
+}
