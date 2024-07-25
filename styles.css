@@ -5,7 +5,7 @@
 
 
 body {
-	background: #F6EEC9;
+	background: #fff;
 }
 
 
@@ -14,20 +14,18 @@ body {
 	font-size: 15px;
 	text-transform: uppercase;
 	font-weight: 700;
-    color: #F6EEC9;
+    color: #FFF1DB;
 }
 
 .navbar-brand {
     font-size: 22px;
 	text-transform: uppercase;
 	font-weight: 800;
-    color:  #F6EEC9
+    color:  #FFF1DB;
 }
-
 .navbar {
-    margin-bottom: 15px;
-    margin: 0 auto; 
-    background-color: #EE4E4E;
+    margin-bottom: 40px;
+    background-color: #E88D67;
     position: relative;
 }
 
@@ -40,11 +38,13 @@ body {
 .carousel-container {
     max-width: 600px; /* Ajusta este valor según tus necesidades */
     margin: 20px auto; /* Centra el contenedor horizontalmente y agrega espacio superior e inferior */
+   
 }
 .carousel-inner img {
     width: 100%;
     height: 400px; /* Ajusta la altura según tus necesidades */
     object-fit: cover; /* Ajusta las imágenes para que cubran el área del contenedor */
+    
 }
 
 .carousel-title{
@@ -54,5 +54,21 @@ body {
 
 h2{
     font-weight: 700;
+    text-transform: uppercase;
+    color: #E88D67;
+}
 
+.card{
+    padding: 20px;
+    color: #000;
+    background-color: #ffffff;
+    border-color: #fff;
+    font-weight: 500;
+    
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
