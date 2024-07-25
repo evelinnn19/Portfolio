@@ -4,7 +4,9 @@
 }
 
 
-body {
+html, body {
+    height: 100%;
+    margin: 0;
 	background: #fff;
 }
 
@@ -70,4 +72,21 @@ h2{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+
+.footer {
+    background-color: #f8f9fa; 
+    padding: 20px; 
+    text-align: center;
+    border-top: 1px solid #dee2e6;
+}
+
+.content {
+    flex: 1; /* Permite que el contenido principal ocupe el espacio restante */
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Asegura que el contenedor ocupe al menos el 100% de la altura de la ventana */
 }
