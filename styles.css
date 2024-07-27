@@ -58,6 +58,13 @@ h2{
     color: #E88D67;
 }
 
+.h2-formulario{
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #E88D67;
+    text-align: center;
+}
+
 .home-card{
     padding: 20px;
     color: #000;
@@ -73,6 +80,7 @@ h2{
     display: flex;
     flex-direction: column;
     height: 100%;
+    
 }
 
 .card-img-top {
