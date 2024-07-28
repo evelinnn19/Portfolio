@@ -62,4 +62,26 @@ formulario.addEventListener('submit', (e) => {
     .catch((error) => {
         console.error('Error al enviar el formulario:', error);
     });
+    // Si todo está bien, enviar el formulario
+    const simularEnvio = () => {
+        return new Promise((resolve) => {
+        setTimeout(() => {
+        resolve({ enviado: true });
+        }, 2000);
+  });
+};
+
+simularEnvio()
+  .then((data) => {
+    if (data.enviado) {
+      mensajeEnviado.innerHTML = 'Mensaje enviado con éxito';
+      mensajeEnviado.style.color = 'green';
+    } else {
+      mensajeEnviado.innerHTML = 'Error al enviar el mensaje';
+      mensajeEnviado.style.color = 'red';
+    }
+  })
+  .catch((error) => {
+    console.error('Error al enviar el formulario:', error);
+  });
 });
